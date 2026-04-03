@@ -1,28 +1,31 @@
-<!DOCTYPE html>
-<html lang="vi">
-<head>
-    <meta charset="UTF-8">
-</head>
-<body>
-<h2>Đóng góp ý kiến cho thư viện của nhà trường</h2>
-
-<form>
-    <p><b>1. Thông tin về người góp ý</b></p>
-
-    <label>Họ và tên:
-        <input type="text" name="txtTen">
-    </label>
-    <br><br>
-
-    <label>Địa chỉ email:
-        <input type="text" name="txtEmail">
-    </label>
-
-    <p><b>2. Đóng góp ý kiến</b></p>
-
-    <label>Ý kiến đóng góp:<br>
-        <textarea name="txtYKien" cols="40" rows="5"></textarea>
-    </label>
-</form>
-</body>
+<html>
+  <head>
+    <meta charset = "utf - 8">
+  </head>
+  <body>
+    <form action = "Bai7-NV3.html">
+      <label>
+        Họ và tên: <br>
+        <input type = "text" name = "txtTen">
+      </label> 
+      <br>
+      <label>
+        Địa chỉ email: <br>
+        <input type = "email" name = "txtEmail">
+      </label> 
+      <br>
+      <label>
+        Ý kiến đóng góp: <br>
+        <textarea name = "txtComment" rows = "6" cols = "40"></textarea>
+      </label>
+      <br>
+      Thể loại cần bổ sung thêm sách: <br>
+      <input type = "checkbox" name = "chkTruyenNgan"> Truyện ngắn <br>
+      <input type = "checkbox" name = "chkKiNang"> Kĩ năng sống <br>
+      <input type = "checkbox" name = "chkCNTT"> CNTT <br>
+      <input type = "checkbox" name = "chkTruyenTranh"> Truyện Tranh <br>
+      <input type = "checkbox" name = "chkLichSu"> Lịch sử <br>
+      <input type = "submit" name = "cmd" value = "Góp ý">
+    </form>
+  </body>
 </html>
