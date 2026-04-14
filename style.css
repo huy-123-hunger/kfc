@@ -68,25 +68,4 @@ td {
     color: black;
     font-size: 15pt;
     margin-top: 18pt;
-}.content {
-         flex: 70%;
-         background-color: white;
 }
-
-.footer {
-         flex: 10%;
-         background-color: mediumpinkpastel;
-}
-
-h1 {color: mediumskyblue; text-align:center;}
-
-h2 {color: slateblue;}
-
-td {padding: 20; text - align: justify}
-
-.tieude {color: peach; font-size: 25pt;
-         top-margin: 18pt}
-
-.noidung {color: black; font-size: 15pt;
-         top-margin: 18pt}
-
